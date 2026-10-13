@@ -8,7 +8,7 @@ cat<<"EOF"
 EOF
 
 
-sudo pacman -Sy xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst sddm NetworkManager --noconfirm 
+sudo pacman -Sy xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst sddm network-manager-applet networkmanager --noconfirm 
 
 
 cat<<"EOF"
