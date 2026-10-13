@@ -3,7 +3,7 @@
 
   "logo": {
     "type": "file-raw",
-    "source": "~/.config/fastfetch/acsii.txt",
+    "source": "/usr/share/acsii.txt",
    },
 
   "modules": [
