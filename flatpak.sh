@@ -2,7 +2,7 @@
 
 cat<<"EOF"
 
-+ sudo pacman -Sy flatpak
++ pacman -Sy flatpak
 
 EOF
 
