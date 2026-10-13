@@ -2,11 +2,11 @@
 
 cat<<"EOF"
 
-+ apt install wine wine32:i386 wine32 wine64
++ pacman -Sy wine wine-gecko wine-mono winetricks
 
 EOF
 
-sudo apt install --no-install-recommends wine wine32:i386 wine32 wine64 -y
+sudo pacman -Sy wine wine-gecko wine-mono winetricks --noconfirm
 
 cat<<"EOF"
 
