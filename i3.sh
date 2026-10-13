@@ -8,7 +8,7 @@ cat<<"EOF"
 EOF
 
 
-sudo pacman -Sy xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst sddm --noconfirm 
+sudo pacman -Sy xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst sddm NetworkManager --noconfirm 
 
 
 cat<<"EOF"
@@ -19,3 +19,15 @@ EOF
 
 
 systemctl enable sddm
+
+
+cat<<"EOF"
+
++ systemctl enable NetworkManager
+
+EOF
+
+
+systemctl enable NetworkManager
+
+
