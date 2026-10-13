@@ -1,0 +1,6 @@
+NAME="hinnkaDistro Linux"
+PRETTY_NAME="hinnkaDistro"
+ID=hinnka
+ID_LIKE=arch
+BUILD_ID=rolling
+LOGO=/usr/local/acsii.txt
