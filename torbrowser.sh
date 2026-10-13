@@ -2,7 +2,7 @@
 
 cat<<"EOF"
 
-+ apt install torbrowser-launcher
++ pacman -Sy torbrowser-launcher
 
 EOF
 
