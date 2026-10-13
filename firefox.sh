@@ -2,11 +2,11 @@
 
 cat<<"EOF"
 
-+ apt install firefox
++ pacman -Sy firefox
 
 EOF
 
-sudo apt install --no-install-recommends firefox -y
+sudo pacman -Sy firefox --noconfirm 
 
 cat<<"EOF"
 
