@@ -6,7 +6,7 @@ cat<<"EOF"
 
 EOF
 
-sudo apt install --no-install-recommends torbrowser-launcher -y
+sudo pacman -Sy torbrowser-launcher --noconfirm
 
 cat<<"EOF"
 
