@@ -2,8 +2,8 @@
 
 cat<<"EOF"
 
-+ pacman -Sy base-devel git firefox flatpak fastfetch gimp libreoffice mousepad
++ pacman -Sy base-devel git firefox flatpak fastfetch gimp libreoffice signal-desktop
 
 EOF
 
-sudo pacman -Sy --needed --noconfirm base-devel git firefox flatpak fastfetch gimp libreoffice mousepad
+sudo pacman -Sy --needed --noconfirm base-devel git firefox flatpak fastfetch gimp libreoffice signal-desktop
