@@ -1,7 +1,7 @@
 cat<<"EOF"
 
-+ pacman -Sy chromium flatpak fastfetch mousepad
++ pacman -Sy firefox flatpak fastfetch mousepad
 
 EOF
 
-sudo pacman -Sy chromium flatpak fastfetch mousepad --noconfirm
+sudo pacman -Sy firefox flatpak fastfetch mousepad --noconfirm
