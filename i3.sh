@@ -8,7 +8,7 @@ cat<<"EOF"
 EOF
 
 
-sudo pacman -Sy pipewire xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome --noconfirm 
+sudo pacman -Sy --needed --noconfirm pipewire xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome --noconfirm 
 
 
 cat<<"EOF"
