@@ -6,7 +6,7 @@ cat<<"EOF"
 
 EOF
 
-sudo pacman -Sy pacman -Sy git pipewire fastfetch flatpak xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome wine wine-gecko wine-mono winetricks appstream
+sudo pacman -Sy git pipewire fastfetch flatpak xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome wine wine-gecko wine-mono winetricks appstream
 
 cat<<"EOF"
 
