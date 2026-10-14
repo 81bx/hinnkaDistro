@@ -6,7 +6,7 @@ cat<<"EOF"
 
 EOF
 
-sudo pacman -Sy --needed --noconfirm steam wine wine-gecko wine-mono winetricks mesa base-devel git firefox flatpak fastfetch gimp libreoffice mousepad pipewire xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome
+sudo pacman -Sy --needed --noconfirm steam wine wine-gecko wine-mono winetricks mesa base-devel git firefox flatpak fastfetch gimp libreoffice signal-desktop mousepad pipewire xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome
 
 cat<<"EOF"
 
