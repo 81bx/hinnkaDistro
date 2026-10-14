@@ -2,7 +2,7 @@
 
 cat<<"EOF"
 
-+ pacman -Sy steam wine wine-gecko wine-mono winetricks mesa prism-launcher protonup-qt base-devel git firefox flatpak fastfetch gimp libreoffice mousepad
++ Installing all packages
 
 EOF
 
@@ -13,6 +13,10 @@ cat<<"EOF"
 + git clone https://github.com/81bx/hinnkaDistroCLI
 
 EOF
+
+cd ~/hinnkaDistroCLI
+
+sh yayaur.sh
 
 cd ~/hinnkaDistroCLI/airootfs
 
