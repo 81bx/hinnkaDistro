@@ -3,12 +3,12 @@
 
 cat<<"EOF"
 
-+ pacman -Sy xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst polkit-gnome gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager
++ pacman -Sy xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager
 
 EOF
 
 
-sudo pacman -Sy xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst polkit-gnome gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager --noconfirm 
+sudo pacman -Sy xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager --noconfirm 
 
 
 cat<<"EOF"
