@@ -2,8 +2,8 @@
 
 cat<<"EOF"
 
-+ pacman -Sy firefox flatpak fastfetch gimp libreoffice
++ pacman -Sy firefox flatpak fastfetch gimp libreoffice mousepad
 
 EOF
 
-sudo pacman -Sy firefox flatpak fastfetch gimp libreoffice --noconfirm
+sudo pacman -Sy firefox flatpak fastfetch gimp libreoffice mousepad --noconfirm
