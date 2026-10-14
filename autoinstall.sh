@@ -2,11 +2,11 @@
 
 cat<<"EOF"
 
-+ pacman -Sy git fastfetch flatpak xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome wine wine-gecko wine-mono winetricks appstream
++ pacman -Sy git pipewire fastfetch flatpak xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome wine wine-gecko wine-mono winetricks appstream
 
 EOF
 
-sudo pacman -Sy pacman -Sy fastfetch flatpak xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome wine wine-gecko wine-mono winetricks appstream
+sudo pacman -Sy pacman -Sy git pipewire fastfetch flatpak xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome wine wine-gecko wine-mono winetricks appstream
 
 cat<<"EOF"
 
