@@ -1,33 +1,40 @@
-#!root
+#NOTE: It has been moved to normalpackages.sh and litepackages.sh
 
-
-cat<<"EOF"
-
-+ pacman -Sy pipewire xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome mousepad
-
-EOF
-
-
-sudo pacman -Sy --needed --noconfirm pipewire xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome mousepad
-
+#The script has been disabled
 
 cat<<"EOF"
 
-+ systemctl enable sddm
+The script has been disabled nad it has been moved to normalpackages.sh and litepackages.sh
 
 EOF
 
+# cat<<"EOF"
 
-systemctl enable sddm
+# + pacman -Sy pipewire xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome mousepad
 
-
-cat<<"EOF"
-
-+ systemctl enable NetworkManager
-
-EOF
+# EOF
 
 
-systemctl enable NetworkManager
+# sudo pacman -Sy --needed --noconfirm pipewire xorg-server xorg-xinit i3-wm i3status dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome mousepad
+
+
+# cat<<"EOF"
+
+# + systemctl enable sddm
+
+# EOF
+
+
+# systemctl enable sddm
+
+
+# cat<<"EOF"
+
+# + systemctl enable NetworkManager
+
+# EOF
+
+
+# systemctl enable NetworkManager
 
 
