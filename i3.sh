@@ -4,7 +4,7 @@
 
 cat<<"EOF"
 
-The script has been disabled nad it has been moved to normalpackages.sh and litepackages.sh
+The script has been disabled and it has been moved to normalpackages.sh and litepackages.sh
 
 EOF
 
