@@ -2,7 +2,7 @@
 
 cat<<"EOF"
 
-+ pacman -Sy Installing normal packages without i3/with LXQt
++ Installing normal packages without i3/with LXQt
 
 EOF
 
