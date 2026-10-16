@@ -2,7 +2,7 @@
 
 cat<<"EOF"
 
-+ Installing all packages
++ Installing all packages without i3/with LXQt
 
 EOF
 
