@@ -6,4 +6,4 @@ cat<<"EOF"
 
 EOF
 
-sudo pacman -Sy --needed --noconfirm steam wine wine-gecko wine-mono winetricks mesa vulkan-driver
+sudo pacman -Sy --needed --noconfirm steam wine wine-gecko wine-mono winetricks mesa vulkan-intel vulkan-radeon vulkan-driver
