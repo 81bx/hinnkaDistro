@@ -6,7 +6,7 @@ cat<<"EOF"
 
 EOF
 
-sudo pacman -Sy --needed --noconfirm pipewire xorg-server xorg-xinit pipewire xorg-server xorg-xinit lxqt openbox xdg-utils ttf-freefont libpulse libstatgrab libsysstat lm_sensors oxygen-icons pavucontrol-qt gvfs udisks2 sddm network-manager-applet networkmanager base-devel git firefox flatpak fastfetch gimp libreoffice signal-desktop vlc wine wine-gecko wine-mono winetricks
+sudo pacman -Sy --needed --noconfirm pipewire xorg-server xorg-xinit pipewire xorg-server xorg-xinit lxqt openbox xdg-utils ttf-freefont libpulse libstatgrab libsysstat lm_sensors oxygen-icons pavucontrol-qt gvfs udisks2 sddm network-manager-applet networkmanager base-devel git firefox flatpak fastfetch gimp libreoffice signal-desktop vlc
 
 cat<<"EOF"
 
