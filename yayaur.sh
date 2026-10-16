@@ -1,3 +1,5 @@
+#!root
+
 cat<<"EOF"
 
 + Installing AUR (yay)
