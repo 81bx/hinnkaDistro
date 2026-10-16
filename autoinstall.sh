@@ -10,15 +10,15 @@ sudo pacman -Sy --needed --noconfirm pipewire xorg-server xorg-xinit i3-wm i3sta
 
 cat<<"EOF"
 
-+ git clone https://github.com/81bx/hinnkaDistroCLI
++ git clone https://github.com/81bx/hinnkaDistro
 
 EOF
 
-cd ~/hinnkaDistroCLI
+cd ~/hinnkaDistro
 
 sh yayaur.sh
 
-cd ~/hinnkaDistroCLI/airootfs
+cd ~/hinnkaDistro/airootfs
 
 cat<<"EOF"
 
@@ -32,7 +32,7 @@ sudo cp -r usr /
 
 mkdir ~/.config
 
-cd ~/hinnkaDistroCLI/airootfs/config
+cd ~/hinnkaDistro/airootfs/config
 
 cat<<"EOF"
 
