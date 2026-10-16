@@ -1,3 +1,5 @@
+#!root
+
 cat<<"EOF"
 
 + Installing lite packages without i3/with LXQt
