@@ -6,7 +6,7 @@ cat<<"EOF"
 
 EOF
 
-sudo pacman -Sy --needed --noconfirm nano base-devel git firefox flatpak fastfetch ppipewire xorg-server xorg-xinit lxqt openbox xdg-utils ttf-freefont libpulse libstatgrab libsysstat lm_sensors oxygen-icons pavucontrol-qt gvfs udisks2 sddm network-manager-applet networkmanager
+sudo pacman -Sy --needed --noconfirm nano base-devel git firefox flatpak fastfetch pipewire xorg-server xorg-xinit lxqt openbox xdg-utils ttf-freefont libpulse libstatgrab libsysstat lm_sensors oxygen-icons pavucontrol-qt gvfs udisks2 sddm network-manager-applet networkmanager
 
 
 cat<<"EOF"
