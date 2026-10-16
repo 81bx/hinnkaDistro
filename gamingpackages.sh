@@ -2,7 +2,7 @@
 
 cat<<"EOF"
 
-+ pacman -Sy steam wine wine-gecko wine-mono winetricks mesa vulkan-driver
++ Installing gaming packages
 
 EOF
 
