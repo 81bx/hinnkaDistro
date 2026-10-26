@@ -8,12 +8,6 @@ EOF
 
 sudo pacman -Sy --needed --noconfirm nano pipewire xorg-server xorg-xinit pipewire xorg-server xorg-xinit lxqt openbox xdg-utils ttf-freefont libpulse libstatgrab libsysstat lm_sensors oxygen-icons pavucontrol-qt gvfs udisks2 sddm network-manager-applet networkmanager base-devel git firefox flatpak fastfetch gimp libreoffice signal-desktop vlc
 
-cat<<"EOF"
-
-+ git clone https://github.com/81bx/hinnkaDistro
-
-EOF
-
 cd ~/hinnkaDistro
 
 sh yayaur.sh
@@ -50,3 +44,23 @@ cat<<"EOF"
 + sudo cp -r i3 /
 
 EOF
+
+
+cat<<"EOF"
+
++ systemctl enable sddm
+
+EOF
+
+
+systemctl enable sddm
+
+
+cat<<"EOF"
+
++ systemctl enable NetworkManager
+
+EOF
+
+
+systemctl enable NetworkManager
