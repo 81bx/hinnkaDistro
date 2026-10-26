@@ -7,7 +7,7 @@ cat<<"EOF"
 EOF
 
 
-sudo pacman -Sy --needed --noconfirm nano base-devel git firefox flatpak fastfetch gimp libreoffice signal-desktop vlc pavucontrol pipewire hyprland hyprlauncher hyprpolkitagent xdg-desktop-portal-hyprland kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager mousepad
+sudo pacman -Sy --needed --noconfirm nano base-devel git firefox flatpak fastfetch pavucontrol pipewire hyprland hyprlauncher hyprpolkitagent xdg-desktop-portal-hyprland kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager mousepad
 
 
 cat<<"EOF"
