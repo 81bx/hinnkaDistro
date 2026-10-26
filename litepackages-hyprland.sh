@@ -2,11 +2,12 @@
 
 cat<<"EOF"
 
-+ Installing lite packages without i3/with Hyprland
++ pacman -Sy Installing normal/default packages
 
 EOF
 
-sudo pacman -Sy --needed --noconfirm nano base-devel git firefox flatpak fastfetch pavucontrol pipewire hyprland hyprlauncher dmenu kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager polkit-gnome mousepad
+
+sudo pacman -Sy --needed --noconfirm nano base-devel git firefox flatpak fastfetch gimp libreoffice signal-desktop vlc pavucontrol pipewire hyprland hyprlauncher hyprpolkitagent xdg-desktop-portal-hyprland kitty thunar feh dunst gvfs udisks2 thunar-volman sddm network-manager-applet networkmanager mousepad
 
 
 cat<<"EOF"
@@ -16,7 +17,7 @@ cat<<"EOF"
 EOF
 
 
-systemctl enable sddm
+sudo systemctl enable sddm
 
 
 cat<<"EOF"
@@ -26,4 +27,18 @@ cat<<"EOF"
 EOF
 
 
-systemctl enable NetworkManager
+sudo systemctl enable NetworkManager
+
+
+cat<<"EOF"
+
++ sudo systemctl enable xdg-desktop-portal-hyprland
++ sudo systemctl enable hyprpolkitagent
+
+EOF
+
+sudo systemctl enable xdg-desktop-portal-hyprland
+sudo systemctl enable hyprpolkitagent
+sudo systemctl start xdg-desktop-portal-hyprland
+sudo systemctl start hyprpolkitagent
+
