@@ -2,7 +2,7 @@
 
 cat<<"EOF"
 
-+ pacman -Sy Installing normal/default packages
++ Installing lite packages without i3/with Hyprland
 
 EOF
 
