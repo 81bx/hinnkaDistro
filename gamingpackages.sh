@@ -2,6 +2,8 @@
 
 cat<<"EOF"
 
+Do you have a mulitlib enabled in /etc/pacman.conf ?
+
 + Installing gaming packages
 
 EOF
